@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.xeijin.juegavivo.Home">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Hacer Reporte"
+        android:textColor="@color/colorPrimary"
+        android:textSize="19sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/btn_picture"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimary"
+        android:text="Tomar fotografía"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/btn_gallery"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimary"
+        android:text="Seleccionar fotografía de galería"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/img_reporte"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="@color/colorPrimary"/>
+
+    <TextView
+        android:id="@+id/txt_response"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/colorPrimary"
+        android:textSize="19sp"
+        android:textStyle="bold" />
+</LinearLayout>
